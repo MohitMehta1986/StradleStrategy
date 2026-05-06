@@ -1,0 +1,2 @@
+kubectl create secret generic service-account-credentials --from-file=key.json=option-db-account.json
+kubectl create secret generic pubsub-key --from-file=pubsub-key.json=pub-sub-account.json

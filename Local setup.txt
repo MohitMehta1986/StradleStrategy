@@ -1,0 +1,2 @@
+cloud_sql_proxy.exe -credential_file=option-db-account.json -instances=fifth-curve-382514:us-central1:optiontrading=tcp:0.0.0.0:3306
+gcloud auth application-default login
